@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    int a= 4;
+    char b= 's';
+    float c = 1.2;
+    
+    printf("%d\n",a);
+    printf("%C\n",b);
+    printf("%f",c);
+    
+    return;
+     
+    
+}

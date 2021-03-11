@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char a[10]="taksh";
+    char b[10]="pawar";
+    printf("Initial of A %s\n",a);
+    printf("Initial of B %s\n",b);
+    strcpy( b,a);
+    printf("After A %s\n",a);
+    printf("After B %s",b);
+    return 0;
+     
+    
+}

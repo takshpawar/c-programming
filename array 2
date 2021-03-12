@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{int a[10];
+
+  a[0] = 2;
+  a[1] = 4;
+  a[2] = 8;
+  a[3] = 16;
+  a[4] = a[0]+a[1];
+  a[5] = a[2]-a[3];
+  a[6] = a[1]/a[3];
+  
+  printf("%d",a[4]);
+  printf("%d",a[5]);
+  printf("%d",a[6]);
+
+    return 0;
+}

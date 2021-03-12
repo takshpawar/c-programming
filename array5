@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(){
+int a[2][3] ={{2,3},{3,4,5}};
+int b[3][4] ={{1,3,5},{7,9,11,13}};
+int lengthrow = sizeof(b)/sizeof(b[0]);
+int lengthcolumn = sizeof(b[0])/sizeof(b[0][0]);
+printf("%d",lengthcolumn*lengthrow);
+
+
+    return 0;
+}

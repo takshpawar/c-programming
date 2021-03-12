@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(){
+int a[] ={4,8,6,24,56,48,12,22,18,32,34};
+int length = sizeof(a)/sizeof(a[3]);
+printf("%d",a[5]);
+
+    return 0;
+}

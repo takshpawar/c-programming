@@ -1,0 +1,12 @@
+#include <stdio.h>
+void printd()
+{ 
+    int a = 6; float b = 13.3; char c = 'n';
+    
+    printf("%d,%f,%c",a,b,c);
+    
+}
+void main()
+{ 
+    printd();
+}

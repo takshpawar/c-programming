@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int a = 5;
+int b = 8;
+
+void printd()
+{ 
+    printf("the sum of a and b is %d,%d",a,b);
+    
+}
+void main()
+{ 
+    printd();
+}

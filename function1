@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+My_shop()
+{
+    printf("sweet");
+    
+}
+
+int main()
+{
+    My_shop();
+}

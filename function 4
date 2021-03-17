@@ -1,0 +1,16 @@
+ #include <stdio.h>
+
+ float multiply(float a, float b, float c)
+
+{ 
+
+float d = a*b*c;    
+    
+    return d;
+}
+
+int main()
+{ float c = multiply(40,52.2,4);
+    printf("%f",c);
+   
+}

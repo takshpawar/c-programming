@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+
+int multiply(int a,int b)
+{
+    return a*b;
+}
+
+int main()
+{
+    int a,b,c;
+     a = 45; b = 38;
+    c = multiply(a,b);
+    printf("the multiply is %d\n",c);
+    
+}

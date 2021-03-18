@@ -1,0 +1,22 @@
+int multiply(int a,int b)
+{
+    int c = a*b;
+    return c;
+}
+int sum( int a,int b)
+{ 
+    int c = a+b;
+    return c;
+}
+int divide(int a, int b)
+{  
+    int c = a/b;
+    return c;
+}
+int main()
+{
+int a,b,c;
+a = 12 ,b =13, c =34;
+c = multiply(a,b)+sum(a,b)+divide(a,b);
+ printf(" %d",c);
+}

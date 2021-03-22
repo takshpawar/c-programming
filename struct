@@ -1,0 +1,19 @@
+#include <stdio.h>
+struct taksh
+ {
+     int a;
+     char b;
+     float c;
+     char d[10];
+ };
+  int main()
+ { 
+     struct taksh a;
+     a.a = 5;
+     a.b = 'a';
+     a.c = 7;
+    
+    
+     
+ }
+

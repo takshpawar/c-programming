@@ -1,0 +1,27 @@
+#include <string.h>
+ 
+union taksh {
+   int i;
+   float f;
+   char str[20];
+   int j;
+};
+ 
+int main( ) {
+
+   union taksh data;        
+
+   data.i = 10;
+   printf( "data.i : %d\n", data.i);
+   
+   data.i = 20;
+   printf( "data.j : %d\n", data.j);
+   
+   data.f = 220.5;
+   printf( "data.f : %f\n", data.f);
+   
+   strcpy( data.str, "C Programming");
+   printf( "data.str : %s\n", data.str);
+
+   return 0;
+}

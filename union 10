@@ -1,0 +1,22 @@
+#include <stdio.h>
+union abc{ 
+    int a;
+    char b;
+    float c;
+    double d;
+};
+
+int main()
+{
+    int a = 5;
+    float c = 65.0;
+    char b = 'A';
+    double d = 456;
+    printf("%ld\n",sizeof(union abc));
+    printf("%d\n",a);
+    printf("%f\n",c);
+    printf("%c\n",b);
+    printf("%lf",d);
+
+    return 0;
+}

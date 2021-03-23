@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+int a,b,c;
+ a = 8;
+ b = 6;
+ c = a+b;
+ printf("enter the value of a :");
+ scanf( "%d",&a);
+ printf("enter the value of b :");
+ scanf("%d",&b);
+ printf("the value of c is:%d",c);
+ 
+ 
+
+
+    return 0;
+}
